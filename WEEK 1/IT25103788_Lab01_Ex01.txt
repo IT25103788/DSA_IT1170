@@ -1,0 +1,49 @@
+Exercise 1: Identifying Algorithms
+
+ 01. Navigation system can be considered as a two real-life example of algorithms. List two similar real-life examples.
+
+  1. Making a Cup of Tea
+  2. Recipe
+  3. ATM Card
+
+ 02. Write a sample algorithm for a navigation system.
+
+  Navigation System(startLocation, destination)
+  
+  Start the app
+ 
+-Get the current location of the user
+-Get the destination input from the user
+-Retrive the map and the possible routes
+-Calculate the shortest or fastest route
+-Check for the real time traffic updates
+-Provide step by step navigation instructions
+-Update the route dynamically if necessary
+-Announce arrival at the destination
+-End
+
+ 03. Write an algorithm to find the maximum of three numbers.
+
+-Start
+-Input three numbers N1,N2,N3
+-If N1 is greater than N2 and N3
+	(a) Max --> N1
+-If N2 is greater than N1 and N3
+	(a) Max --> N2
+-If both conditions failed
+	(a) Max --> N3
+-Output Max
+-End
+
+ 04. Write an algorithm to find the average of a list of N numbers.
+
+-start
+-Input the value of N
+-Initialize sum to 0
+-Repeat for 1 to N:
+	(a)input next number
+	(b)add num to sum (Sum --> sum + num)
+-Compute the Average ( Sum / N )
+-Output the average
+-End
+

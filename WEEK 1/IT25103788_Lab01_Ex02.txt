@@ -1,0 +1,30 @@
+Exercise 2: Writing pseudocodes
+
+  05. Write a pseudocode to find the maximum of three numbers.
+
+-Begin
+-Input N1,N2,N3
+-if N1>N2 and N1>N3
+-	Max = N1
+-else if N2>N1 and N2>N3
+-	Max = N2
+-else 
+-	Max = N3
+-end if
+-output the maximum number : "max"
+-End
+
+  06. Write a pseudocode to find the average of a list of N numbers.
+
+-Begin
+-Input the value of N
+-sum = 0
+-for int i=0; i to N ; i++
+-	(a)Input the number
+-	(a)sum = sum + number
+-Compute the average
+-average=sum/N
+-output the average : average
+-End
+
+  
